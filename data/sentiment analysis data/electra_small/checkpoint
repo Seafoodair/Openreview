@@ -1,2 +1,0 @@
-model_checkpoint_path: "electra_small"
-all_model_checkpoint_paths: "electra_small"
