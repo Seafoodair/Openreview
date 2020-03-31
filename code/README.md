@@ -14,7 +14,7 @@ Here is brief description of each file.<br>
 + "decision.txt"  Description of the reception, 1 for reception, 0 for rejection.<br>
 + "stopwords.txt" Include common early stop words in the file<br>
 + "userdict2.txt"Common key words and phrases in scientific papers<br>
-## (3)sentiment analysis<br
+## (3)sentiment analysis
 first ,we should download pre-training model ELECTRA-Small. Click the link https://storage.googleapis.com/electra-data/electra_small.zip to download to ```../../data/sentiment analysis data/```
 ### generate model<br>
 The realization of emotion analysis module. Please load the following command:<br>
