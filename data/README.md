@@ -11,7 +11,7 @@ Citations of papers submitted by iclr2017-2019<br>
 cite data formate<br>
 ```title,decision,citenum,avg```
 # Cluster data<br>
-ICLR 2020 paper data<br>
+ICLR 2020 paper data
 Cluster data format<br>
 ```title,keyword,abstract,decision```<br>
 # Sentiment Data<br>
