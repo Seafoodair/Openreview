@@ -1,1 +1,0 @@
-The main goal of network pruning is imposing sparsity on the neural network by increasing the number of parameters with zero value in order to reduce the architecture size and the computational speedup. Neural Networks, Deep Learning, Sparsity, Guided Attention

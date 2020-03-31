@@ -1,1 +1,0 @@
-We demonstrate that the Conditional Entropy Bottleneck (CEB) can improve model robustness. CEB is an easy strategy to implement and works in tandem with data augmentation procedures. We report results of a large scale adversarial robustness study on CIFAR-10, as well as the IMAGENET-C Common Corruptions Benchmark. Information Theory, Adversarial Robustness

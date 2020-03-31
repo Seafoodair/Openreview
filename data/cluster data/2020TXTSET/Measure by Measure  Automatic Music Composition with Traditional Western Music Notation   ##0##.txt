@@ -1,1 +1,0 @@
-In this paper, we present a system that is capable of generating long polyphonic music given number of measures, up to hundreds of measures. This is achieved by creating a measure model that imitates the object hierarchy used in common encodings of traditional western music notation. On top of this, we construct a inter-measure context model that spans the entire composition. 

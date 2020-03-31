@@ -1,5 +1,0 @@
-We present Neural Phrase-to-Phrase Machine Translation (
-ppmt), a phrase-based translation model that uses a novel phrase-attention mechanism to discover relevant input (source) segments to generate output (target) phrases. We propose an efficient dynamic programming algorithm to marginalize over all possible segments at training time and use a greedy algorithm or beam search for decoding. We also show how to incorporate a memory module derived from an external phrase dictionary to 
-ppmt{} to improve decoding. %that allows %the model to be trained faster %
-ppmt is significantly faster %than existing neural phrase-based %machine translation method by cite{huang2018towards}. Experiment results demonstrate that 
-ppmt{} outperforms the best neural phrase-based translation model citep{huang2018towards} both in terms of model performance and speed, and is comparable to a state-of-the-art Transformer-based machine translation system citep{vaswani2017attention}. 
