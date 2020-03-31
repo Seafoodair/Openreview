@@ -15,7 +15,7 @@ Here is brief description of each file.<br>
 + "stopwords.txt" Include common early stop words in the file<br>
 + "userdict2.txt"Common key words and phrases in scientific papers<br>
 ## (3)sentiment analysis<br
-first ,we should download pre-training model ELECTRA-Small. Click the link (https://storage.googleapis.com/electra-data/electra_small.zip)to download to ```../../data/sentiment analysis data/```
+first ,we should download pre-training model ELECTRA-Small. Click the link https://storage.googleapis.com/electra-data/electra_small.zip to download to ```../../data/sentiment analysis data/```
 ### generate model<br>
 The realization of emotion analysis module. Please load the following command:<br>
 ```cd ./sentiment analysis/```<br>
