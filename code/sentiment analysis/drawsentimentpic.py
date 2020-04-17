@@ -20,10 +20,10 @@ def graphpic(w,h,p,q,list66,listgg):
             rect3 = plt.Rectangle((sx, sy), w+p, h+q, color='tomato',alpha=1)
             ax.add_patch(rect3)
         elif i==3:
-            rect3=plt.Rectangle((sx, sy), (w+p), h+q, color='lime',alpha=0.6)
+            rect3=plt.Rectangle((sx, sy), (w+p), h+q, color='tan',alpha=0.6)
             ax.add_patch(rect3)
         else:
-            rect3 = plt.Rectangle((sx, sy), (w+p), h + q, color='tan',alpha=0.6)
+            rect3 = plt.Rectangle((sx, sy), (w+p), h + q, color='lime',alpha=0.6)
             ax.add_patch(rect3)
         sum+=kkk
         sx+=(w+p)
@@ -158,7 +158,7 @@ if __name__ == '__main__':
     #list55=[2,2,3,0,3]
     #listss=[0.1, 0.2, 0.6, 0.05, 0.05]
     graphpic5(0, 0,widlen, 0.1, list5,list)
-    labletext=['novelty','motavition','experiment','relate work','presentation']
+    labletext=['presentation','relate work','experiment','motavition','novelty']
     listscore=[]
     numcount=0
     for score in wr.avg:
