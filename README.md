@@ -6,7 +6,7 @@ ICLR open review dataset
 3.Our experiments mainly include data acquisition, data analysis, clustering analysis, correlation analysis, emotional analysis.For details, please see [./code/README.md](./code/README.md)<br>
 ## Setup Configuration
 ```
-pip install -r requirements.txt<br>
+pip install -r requirements.txt
 pip install tensorflow==1.15.0
 ```
 ## Acknowledgement
