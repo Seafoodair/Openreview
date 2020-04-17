@@ -20,10 +20,10 @@ def graphpic(w,h,p,q,list66,listgg):
             rect3 = plt.Rectangle((sx, sy), w+p, h+q, color='tomato',alpha=1)
             ax.add_patch(rect3)
         elif i==3:
-            rect3=plt.Rectangle((sx, sy), (w+p), h+q, color='lime',alpha=0.6)
+            rect3=plt.Rectangle((sx, sy), (w+p), h+q, color='tan',alpha=0.6)
             ax.add_patch(rect3)
         else:
-            rect3 = plt.Rectangle((sx, sy), (w+p), h + q, color='tan',alpha=0.6)
+            rect3 = plt.Rectangle((sx, sy), (w+p), h + q, color='lime',alpha=0.6)
             ax.add_patch(rect3)
         sum+=kkk
         sx+=(w+p)
