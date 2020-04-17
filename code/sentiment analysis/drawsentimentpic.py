@@ -151,20 +151,20 @@ if __name__ == '__main__':
     list4=pdread(wr.relatework)
     list5=pdread(wr.readable)
     widlen=1/134
-    graphpic(0,0,widlen,0.1,list1,list)#0.0088495575221239这个数字是单位1/个数
-    graphpic2(0,0,widlen,0.1,list2,list)
+    graphpic(0,0,widlen,0.1,list5,list)
+    graphpic2(0,0,widlen,0.1,list4,list)
     graphpic3(0,0,widlen,0.1,list3,list)
-    graphpic4(0, 0,widlen, 0.1, list4,list)
+    graphpic4(0, 0,widlen, 0.1, list2,list)
     #list55=[2,2,3,0,3]
     #listss=[0.1, 0.2, 0.6, 0.05, 0.05]
-    graphpic5(0, 0,widlen, 0.1, list5,list)
+    graphpic5(0, 0,widlen, 0.1, list1,list)
     labletext=['novelty','motavition','experiment','relate work','presentation']
     listscore=[]
     numcount=0
     for score in wr.avg:
         score=round(score,2)
         listscore.append(score)
-    for avgscore in range(134):#这是横坐标这里多少条数据就要多少
+    for avgscore in range(134)
         print(avgscore)
         if avgscore%5==0:
             zzz=0.0373134328358209
@@ -187,8 +187,8 @@ if __name__ == '__main__':
     alpha = [0.6, 1, 0.6]
     #plt.axis('scaled')
 
-    # labels = ['confidence1', 'confidence2', 'confidence3', 'confidence4','confidence5']  #legend标签列表，上面的color即是颜色列表
-    # 用label和color列表生成mpatches.Patch对象，它将作为句柄来生成legend
+    # labels = ['confidence1', 'confidence2', 'confidence3', 'confidence4','confidence5']  
+    
     patches = [mpatches.Patch(color=color[i], label="{:s}".format(labels[i]), alpha=alpha[i]) for i in
                range(len(color))]
     ax.legend(handles=patches, loc=[0.2,0.72] , ncol=3,fontsize=15)
