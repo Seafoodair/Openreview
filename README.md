@@ -9,7 +9,7 @@ is distributed more evenly from high-score reviews to low-score reviews. This
 implies that presentation does not play important role in making the decision.
 It is also interesting that there is no review in which all aspects are positive or
 10 No Author Given
-negative. It is unlikely that a paper is perfect in all aspects or has no merit. Reviewers are also likely to be more rigorous in good papers and be more tolerant
+negative. It is unlikely that a paper is perfect in all aspects or has no merit. Reviewers are also likely to be more rigorous in good papers and be more tolerant
 with poor papers.
 ## The ICLR Open Reviews dataset<br>
 1.ICLR data is a dataset of scientific peer reviews available to help researchers study this important artifact.The dataset consists of over 5K paper informatiron and the corresponding accept/reject decisions in top-tier venues from ICLR conference, as well as over 20K textual peer reviews written by reviewer for a review of the papers.For details of data introduction and format,please see [./data/README.md](./data/README.md)<br>
