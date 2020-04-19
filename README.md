@@ -1,6 +1,6 @@
 # Openreview
 ICLR open review dataset
-## Corrigendum
+## Errata
 In the section 3.2,we draw the Fig5.Due to carelessness, the y-axis coordinates are reversed.The revised Fig5 is as follows:<br>
 ![ad](https://github.com/Seafoodair/Openreview/blob/master/img-folder/sentiment.png)
  We can see that higher review score often comes with more positive aspects from a macro perspective, which is under expectation. We observe that most of reviews with score higher than 6 do NOT have negative comments on presentation and motivation, but may allow some flaws on relate work, experiment, and novelty. The reviewers that have overall positive to the paper are likely to pose improvement suggestions on motivation, experiment, and presentation to make the paper perfect. Novelty quality and experiment seem to be mentioned
