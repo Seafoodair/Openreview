@@ -47,7 +47,7 @@ ipython-genutils==0.2.0
 jdcal==1.4.1
 jedi==0.16.0
 jieba==0.41
-Jinja2==2.11.1
+Jinja2==2.11.3
 jmespath==0.9.4
 joblib==0.14.1
 kashgari==1.1.1
