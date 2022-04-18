@@ -1,4 +1,4 @@
-# Openreview
+# Openreview #中文版
 ICLR open review dataset
 ## The ICLR Open Reviews dataset<br>
 1.ICLR data is a dataset of scientific peer reviews available to help researchers study this important artifact. The dataset consists of over 10K paper informatiron and the corresponding accept/reject decisions in top-tier venues from ICLR conference, as well as over 40K textual peer reviews written by reviewer for a review of the papers. For details of data introduction and format, please see [./data/README.md](./data/README.md)<br>
