@@ -44,3 +44,5 @@ This module analyzes the influence of publishing on arXiv.Please load the follow
 If you like to crawl the raw datase,please use the following command:<br>
 ```python crawlarxiv.py```<br>
 The script crawlarxiv.py,calls the arvix open source API port.<br>
+## (6)rebuttal analysis
+
