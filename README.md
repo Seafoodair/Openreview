@@ -11,4 +11,4 @@ pip install tensorflow==1.15.0
 ```
 ## Acknowledgement
 1.We thank the openreview.net, arxiv.org for their commitment to promoting transparency and openness in scientific communication.<br>
-2.We used the ELECTRA pre-training model.https://github.com/google-research/electra
+2.We used the ELECTRA pre-training model. https://github.com/google-research/electra
