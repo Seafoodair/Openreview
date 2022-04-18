@@ -46,4 +46,4 @@ If you like to crawl the raw datase,please use the following command:<br>
 The script crawlarxiv.py,calls the arvix open source API port.<br>
 ## (6)rebuttal analysis
 This model predicts the change of score after rebuttal.<br>
-```python ./DbertATTENTION.py```<br>
+```python ./DBERTATTENTION.py```<br>
