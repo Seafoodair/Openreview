@@ -17,6 +17,6 @@ Cluster data format<br>
 # Sentiment Data<br>
 Review data used for four years ICLR data format<br> 
 ```title,decision,rate```<br>
-# Sentiment Data<br>
-Review data used for four years ICLR data format ```title,decision,rate'''
+# Rebuttal Data<br>
+Rebuttal data used for ICLR2020 data format ```review,ca,reb```
 
