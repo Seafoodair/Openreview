@@ -1,1 +1,128 @@
-#Rebuttal
+C:\Users\Administrator\AppData\Local\Programs\Python\Python38\python.exe D:/document/同步给子杰/Bert/Dbert.py
+2022-04-18 06:46:18.375061: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'cudart64_110.dll'; dlerror: cudart64_110.dll not found
+2022-04-18 06:46:18.375237: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+(5790, 13)
+                                               title  ...                                                reb
+0  On Incorporating Semantic Prior Knowlegde in D...  ...  We have revised the paper taking into account ...
+1  On Incorporating Semantic Prior Knowlegde in D...  ...  Hi, thanks for your time and for the excellent...
+2  On Incorporating Semantic Prior Knowlegde in D...  ...  Hi, thanks a lot for your time and valuable co...
+3  On the Reflection of Sensitivity in the Genera...  ...  We would like to thank the reviewer for their ...
+4  On the Reflection of Sensitivity in the Genera...  ...  Thank you very much for your structured feedba...
+
+[5 rows x 13 columns]
+  0%|          | 0/5211 [00:00<?, ?it/s]Truncation was not explicitly activated but `max_length` is provided a specific value, please use `truncation=True` to explicitly truncate examples to max length. Defaulting to 'longest_first' truncation strategy. If you encode pairs of sequences (GLUE-style) with the tokenizer you can select this strategy more precisely by providing a specific strategy to `truncation`.
+100%|██████████| 5211/5211 [00:15<00:00, 337.64it/s]
+100%|██████████| 579/579 [00:01<00:00, 342.21it/s]
+2022-04-18 06:46:52.526619: I tensorflow/compiler/jit/xla_cpu_device.cc:41] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2022-04-18 06:46:52.528413: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library nvcuda.dll
+2022-04-18 06:46:52.569081: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 0 with properties: 
+pciBusID: 0000:07:00.0 name: GeForce GTX 1650 computeCapability: 7.5
+coreClock: 1.59GHz coreCount: 14 deviceMemorySize: 4.00GiB deviceMemoryBandwidth: 178.84GiB/s
+2022-04-18 06:46:52.573401: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'cudart64_110.dll'; dlerror: cudart64_110.dll not found
+2022-04-18 06:46:52.577275: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'cublas64_11.dll'; dlerror: cublas64_11.dll not found
+2022-04-18 06:46:52.581117: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'cublasLt64_11.dll'; dlerror: cublasLt64_11.dll not found
+2022-04-18 06:46:52.585190: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'cufft64_10.dll'; dlerror: cufft64_10.dll not found
+2022-04-18 06:46:52.589141: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'curand64_10.dll'; dlerror: curand64_10.dll not found
+2022-04-18 06:46:52.592934: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'cusolver64_10.dll'; dlerror: cusolver64_10.dll not found
+2022-04-18 06:46:52.596737: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'cusparse64_11.dll'; dlerror: cusparse64_11.dll not found
+2022-04-18 06:46:52.600569: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'cudnn64_8.dll'; dlerror: cudnn64_8.dll not found
+2022-04-18 06:46:52.600739: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1757] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2022-04-18 06:46:52.601357: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-04-18 06:46:52.601841: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1261] Device interconnect StreamExecutor with strength 1 edge matrix:
+2022-04-18 06:46:52.601964: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1267]      
+2022-04-18 06:46:52.602050: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+Some layers from the model checkpoint at bert-base-uncased were not used when initializing TFBertModel: ['mlm___cls', 'nsp___cls']
+- This IS expected if you are initializing TFBertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing TFBertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+All the layers of TFBertModel were initialized from the model checkpoint at bert-base-uncased.
+If your task is similar to the task the model of the checkpoint was trained on, you can already use TFBertModel for predictions without further training.
+Some layers from the model checkpoint at bert-base-uncased were not used when initializing TFBertModel: ['mlm___cls', 'nsp___cls']
+- This IS expected if you are initializing TFBertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing TFBertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+All the layers of TFBertModel were initialized from the model checkpoint at bert-base-uncased.
+If your task is similar to the task the model of the checkpoint was trained on, you can already use TFBertModel for predictions without further training.
+池化后的情况 <class 'tensorflow.python.keras.engine.keras_tensor.KerasTensor'> <class 'tensorflow.python.keras.engine.keras_tensor.KerasTensor'> (None, 300, 128) (None, 300, 128)
+(None, 300, 128)
+<class 'tensorflow.python.keras.engine.keras_tensor.KerasTensor'>
+成功了
+<class 'tensorflow.python.keras.engine.keras_tensor.KerasTensor'>
+Model: "model"
+__________________________________________________________________________________________________
+Layer (type)                    Output Shape         Param #     Connected to                     
+==================================================================================================
+input_1 (InputLayer)            [(None, 300)]        0                                            
+__________________________________________________________________________________________________
+input_3 (InputLayer)            [(None, 300)]        0                                            
+__________________________________________________________________________________________________
+input_5 (InputLayer)            [(None, 300)]        0                                            
+__________________________________________________________________________________________________
+input_2 (InputLayer)            [(None, 300)]        0                                            
+__________________________________________________________________________________________________
+input_4 (InputLayer)            [(None, 300)]        0                                            
+__________________________________________________________________________________________________
+input_6 (InputLayer)            [(None, 300)]        0                                            
+__________________________________________________________________________________________________
+tf_bert_model (TFBertModel)     TFBaseModelOutputWit 109482240   input_1[0][0]                    
+                                                                 input_3[0][0]                    
+                                                                 input_5[0][0]                    
+__________________________________________________________________________________________________
+tf_bert_model_1 (TFBertModel)   TFBaseModelOutputWit 109482240   input_2[0][0]                    
+                                                                 input_4[0][0]                    
+                                                                 input_6[0][0]                    
+__________________________________________________________________________________________________
+bidirectional (Bidirectional)   (None, 300, 128)     426496      tf_bert_model[0][0]              
+__________________________________________________________________________________________________
+bidirectional_1 (Bidirectional) (None, 300, 128)     426496      tf_bert_model_1[0][0]            
+__________________________________________________________________________________________________
+concatenate (Concatenate)       (None, 300, 256)     0           bidirectional[0][0]              
+                                                                 bidirectional_1[0][0]            
+__________________________________________________________________________________________________
+bidirectional_2 (Bidirectional) (None, 300, 128)     164352      concatenate[0][0]                
+__________________________________________________________________________________________________
+attention (attention)           (None, 128)          428         bidirectional_2[0][0]            
+__________________________________________________________________________________________________
+dense (Dense)                   (None, 64)           8256        attention[0][0]                  
+__________________________________________________________________________________________________
+dropout_74 (Dropout)            (None, 64)           0           dense[0][0]                      
+__________________________________________________________________________________________________
+dense_1 (Dense)                 (None, 5)            325         dropout_74[0][0]                 
+==================================================================================================
+Total params: 219,990,833
+Trainable params: 219,990,833
+Non-trainable params: 0
+__________________________________________________________________________________________________
+2022-04-18 06:47:01.789773: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:116] None of the MLIR optimization passes are enabled (registered 2)
+Epoch 1/10
+WARNING:tensorflow:Gradients do not exist for variables ['tf_bert_model/bert/pooler/dense/kernel:0', 'tf_bert_model/bert/pooler/dense/bias:0', 'tf_bert_model_1/bert/pooler/dense/kernel:0', 'tf_bert_model_1/bert/pooler/dense/bias:0'] when minimizing the loss.
+WARNING:tensorflow:Gradients do not exist for variables ['tf_bert_model/bert/pooler/dense/kernel:0', 'tf_bert_model/bert/pooler/dense/bias:0', 'tf_bert_model_1/bert/pooler/dense/kernel:0', 'tf_bert_model_1/bert/pooler/dense/bias:0'] when minimizing the loss.
+869/869 [==============================] - 9004s 10s/step - loss: 0.4667 - accuracy: 0.8961
+Epoch 2/10
+869/869 [==============================] - 8984s 10s/step - loss: 0.4391 - accuracy: 0.8900
+Epoch 3/10
+869/869 [==============================] - 8978s 10s/step - loss: 0.4400 - accuracy: 0.8896
+Epoch 4/10
+869/869 [==============================] - 8992s 10s/step - loss: 0.4116 - accuracy: 0.8973
+Epoch 5/10
+869/869 [==============================] - 9019s 10s/step - loss: 0.4064 - accuracy: 0.8887
+Epoch 6/10
+869/869 [==============================] - 9018s 10s/step - loss: 0.3381 - accuracy: 0.8995
+Epoch 7/10
+869/869 [==============================] - 9030s 10s/step - loss: 0.2405 - accuracy: 0.9250
+Epoch 8/10
+869/869 [==============================] - 9034s 10s/step - loss: 0.1945 - accuracy: 0.9342
+Epoch 9/10
+869/869 [==============================] - 9024s 10s/step - loss: 0.1432 - accuracy: 0.9513
+Epoch 10/10
+869/869 [==============================] - 9032s 10s/step - loss: 0.1421 - accuracy: 0.9467
+                precision    recall  f1-score   support
+
+ARTS & CULTURE       0.00      0.00      0.00         3
+       COLLEGE       0.00      0.00      0.00        37
+     EDUCATION       0.00      0.00      0.00        18
+ LATINO VOICES       0.90      0.99      0.94       521
+
+      accuracy                           0.89       579
+     macro avg       0.23      0.25      0.24       579
+  weighted avg       0.81      0.89      0.85       579
