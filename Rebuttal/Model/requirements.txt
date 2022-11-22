@@ -89,7 +89,7 @@ parso==0.8.3
 pathlib2==2.3.7.post1
 patsy==0.5.2
 pickleshare==0.7.5
-Pillow==9.0.1
+Pillow==9.3.0
 pipenv==2022.1.8
 platformdirs==2.5.1
 prometheus-client==0.14.0
