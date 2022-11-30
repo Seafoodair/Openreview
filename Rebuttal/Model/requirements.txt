@@ -82,7 +82,7 @@ opt-einsum==3.3.0
 outcome==1.1.0
 packaging==21.3
 paddle-ernie==0.2.0.dev1
-paddlepaddle==2.2.2
+paddlepaddle==2.4.0
 pandas==1.4.1
 pandocfilters==1.5.0
 parso==0.8.3
