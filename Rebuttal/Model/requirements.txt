@@ -76,7 +76,7 @@ networkx==2.7.1
 nltk==3.7
 notebook==6.4.10
 numpy==1.19.3
-oauthlib==3.2.0
+oauthlib==3.2.2
 openpyxl==3.0.9
 opt-einsum==3.3.0
 outcome==1.1.0
