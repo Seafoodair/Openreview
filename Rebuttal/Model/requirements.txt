@@ -17,7 +17,7 @@ cffi==1.15.0
 charset-normalizer==2.0.12
 click==8.0.4
 colorama==0.4.4
-cryptography==36.0.1
+cryptography==39.0.1
 cycler==0.11.0
 debugpy==1.6.0
 decorator==5.1.1
